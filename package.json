@@ -2,7 +2,7 @@
   "name": "bms",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mwongeli129.github.io/Essie-salon-management-system",
+  "homepage": "https://github.com/mwongeli129/Essie-salon-management-system/blob/main/package.json",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emailjs/browser": "^4.3.3",
