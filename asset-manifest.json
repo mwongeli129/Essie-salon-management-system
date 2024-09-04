@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Essie-salon-management-system/static/css/main.af81a6cb.css",
+    "main.js": "/Essie-salon-management-system/static/js/main.1f2c4ed6.js",
+    "static/media/e8.jpg": "/Essie-salon-management-system/static/media/e8.e2e521e9d5102c839bfb.jpg",
+    "static/media/bg4.jpg": "/Essie-salon-management-system/static/media/bg4.a91a5a3e29e9de2733fa.jpg",
+    "static/media/t1.jpg": "/Essie-salon-management-system/static/media/t1.40ad22d8206687b052f9.jpg",
+    "static/media/salon.jpg": "/Essie-salon-management-system/static/media/salon.bd8a1b43a680eeea4060.jpg",
+    "static/media/s30.jpg": "/Essie-salon-management-system/static/media/s30.b1641303c6365a47836b.jpg",
+    "static/media/t2.jpg": "/Essie-salon-management-system/static/media/t2.b1641303c6365a47836b.jpg",
+    "static/media/t4.jpg": "/Essie-salon-management-system/static/media/t4.7170784fb8c9b75d3387.jpg",
+    "static/media/s29.jpg": "/Essie-salon-management-system/static/media/s29.6c9b81563529bab86d61.jpg",
+    "static/media/Essie.jpg": "/Essie-salon-management-system/static/media/Essie.74ac3f7b95208c38621c.jpg",
+    "static/media/slick.svg": "/Essie-salon-management-system/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Essie-salon-management-system/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Essie-salon-management-system/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Essie-salon-management-system/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Essie-salon-management-system/index.html",
+    "main.af81a6cb.css.map": "/Essie-salon-management-system/static/css/main.af81a6cb.css.map",
+    "main.1f2c4ed6.js.map": "/Essie-salon-management-system/static/js/main.1f2c4ed6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af81a6cb.css",
+    "static/js/main.1f2c4ed6.js"
+  ]
+}
