@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.getIntouch {
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.getIntouch h1 {
+  font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  color: rgb(4, 4, 122);
+  text-align: center;
+}
+
+.getIntouch h1 span {
+  color: orange;
+}
+
+.getIntouch p {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.divFloats {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  background-image: url(../Images/bg4.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactDivision {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cDiv {
+  width: 90%;
+  height: auto;
+  margin: 2% auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  background-color: #ffffff;
+}
+
+.cDiv:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #f0f8ff;
+}
+
+
+.cDiv h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cDiv p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contactB {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  background: transparent;
+  backdrop-filter: blur(1px);
+}
+
+.form {
+  width: 60%;
+  float: left;
+  height: auto;
+  
+
+}
+
+.map {
+  width: 90%;
+  float: left;
+  height: 580px;
+  border: 1px solid blue;
+  margin: 0 auto;
+  margin-left: 6%;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+textarea {
+  color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin: 2%;
+  opacity: 80%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+textarea:hover {
+  border-color: #888;
+  
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  width: 30vh;
+  padding: 5px 10px;
+  margin-left: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+@media only screen and (max-width: 480px) {
+  .contact {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+  }
+
+  .getIntouch {
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .getIntouch h1 {
+    font-size: 44px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    color: rgb(4, 4, 122);
+    text-align: center;
+  }
+
+  .getIntouch h1 span {
+    color: orange;
+  }
+
+  .getIntouch p {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .contactDivision {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto;
+  }
+
+  .cDiv {
+    width: auto;
+    height: auto;
+    margin: 3% auto;
+    box-shadow: 10px 10px 10px 10px rgb(212, 212, 236);
+    border-radius: 10px;
+    margin-right: 2%;
+    border: 1px solid rgb(212, 212, 236);
+  }
+
+  .cDiv h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(1, 1, 90);
+  }
+
+  .cDiv p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .contactB {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+  }
+
+  .form {
+    width: 95%;
+    height: auto;
+  }
+
+  .map {
+    width: 95%;
+    height: 380px;
+    border: 1px solid blue;
+    margin: 3% auto;
+  }
+
+  .map h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+
+  input[type="tel"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 6%;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 30px;
+  }
+
+  button[type="submit"] {
+    width: 80%;
+    height: 7vh;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+}

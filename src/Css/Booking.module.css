@@ -1,0 +1,101 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* Style for the Booking container */
+.Booking_container {
+  width: 80%;
+  margin: 5vh auto;
+  background-color: rgba(245, 245, 245, 0.568);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 20px rgb(202, 202, 250);
+  padding: 20px;
+}
+
+/* General form styles */
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+form h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+
+.overral_divs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.div1, .div2 {
+  width: 48%;
+}
+
+.div1 {
+  float: left;
+}
+
+.div2 {
+  float: right;
+}
+
+/* Input and select styles */
+.Booking_container input[type="text"],
+.Booking_container input[type="email"],
+.Booking_container input[type="date"],
+.Booking_container input[type="time"],
+.Booking_container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.Booking_container input[type="text"]:focus,
+.Booking_container input[type="email"]:focus,
+.Booking_container input[type="date"]:focus,
+.Booking_container input[type="time"]:focus,
+.Booking_container select:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.Booking_container input[type="text"]:hover,
+.Booking_container input[type="email"]:hover,
+.Booking_container input[type="date"]:hover,
+.Booking_container input[type="time"]:hover,
+.Booking_container select:hover {
+  border-color: #888;
+}
+
+.div {
+  text-align: center;
+}
+
+.Booking_container input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Booking_container input[type="submit"]:hover {
+  background-color: #0056b3;
+}

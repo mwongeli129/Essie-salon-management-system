@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* login form */
+.login_section{
+  width: 40%;
+  height: auto;
+  margin: 1% auto;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px 10px rgb(151, 151, 248);
+
+}
+
+.login_section h1 {
+  text-align: center;
+  position: relative;
+  margin-top: 16vh;
+  color: rgb(1, 1, 90);
+  font-family: 'Poppins', sans-serif;
+}
+
+.login_section p {
+  text-align: center;
+  margin-top: 4px;
+  font-family: 'Popins', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.f-icon {
+  position: absolute;
+  width: 20vh;
+  height: 15vh;
+  margin-left: 40vh;
+  margin-top: 8px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+label {
+  font-weight: bolder;
+}
+
+.login_section input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login_section input[type="text"]:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.login_section input[type="text"]:hover {
+  border-color: #888;
+}
+
+
+.login_section input[type="password"]{
+  width: 86%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-top: 4%;
+
+
+}
+.login_section input[type="password"]:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+.login_section input[type="password"]:hover {
+  border-color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+.login_section input[type="submit"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1% auto;
+  width: 20%;
+  background: linear-gradient(to right, rgb(253, 179, 192), blue);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+
+}
+
+
+/* Hover state */
+#login_button:hover {
+  background-color: darkblue;
+  margin: 1%;
+}
+
+/* Focus state */
+#login-button:focus {
+  outline: none;
+  /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+  /* Add a subtle shadow */
+  transform: scale(1.05);
+  /* Slightly increase size on focus */
+}
+
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: orange;
+}
+
+
+.div-remember {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.div-remember label {
+  display: flex;
+  align-items: center;
+}
+
+.div-remember label span {
+  margin-left: 8px;
+}
+
+.div-remember p {
+  margin: 0;
+  color: blue;
+  cursor: pointer;
+  margin-left: auto;
+}

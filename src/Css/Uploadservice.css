@@ -1,0 +1,67 @@
+.submit-container {
+    width: 70%;
+    height: auto;
+    box-shadow: 10px 10px 10px 10px rgb(161, 181, 236);
+    border-radius: 10px;
+    margin: 1% auto;
+}
+
+.submit-container h2 {
+    text-align: center;
+
+}
+
+#text{
+    width: 80%;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+#text:focus{
+    border-color: purple;
+    box-shadow: 0 0 5px rgb(172, 17, 172);
+    outline: none;
+}
+#textarea {
+    width: 80%;
+    height: 5%;
+    padding: 10px;
+    margin: 2%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+
+}
+#textarea:focus{
+    border-color: purple;
+    box-shadow: 0 0 5px rgb(216, 103, 216);
+}
+
+input[type="file"] {
+    width: 80%;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+
+}
+input[type="file"]:focus{
+    border-color: purple;
+    box-shadow: 0 0 5px rgb(218, 64, 218);
+    outline: none;
+}
+
+.submit {
+    width: 20%;
+    padding: 10px;
+    margin: 2% auto;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(255, 70, 193, 0.822), rgb(1, 25, 90));
+    border: none;
+    cursor: pointer;
+
+
+
+}

@@ -1,0 +1,40 @@
+.add-teacher-container {
+    width: 50%;
+    margin: 1% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 10px 10px 20px 20px rgb(213, 176, 236);
+
+}
+
+.add-teacher-container h2 {
+    text-align: center;
+}
+
+.add-teacher-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-teacher-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+
+
+input[type="submit"]{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

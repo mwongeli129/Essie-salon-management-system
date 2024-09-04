@@ -1,0 +1,12 @@
+.scroll-animation {
+    opacity: 0;
+    transform: translateX(-50px);
+    /* Initial position off-screen to the left */
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.scroll-animation.isVisible {
+    opacity: 1;
+    transform: translateX(0);
+    /* Slide in to the center */
+}

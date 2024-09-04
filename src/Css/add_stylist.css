@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.add-stylist-container {
+    width: 50%;
+    margin: 1% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 10px 10px 20px 20px rgb(213, 176, 236);
+
+}
+
+.add-stylist-container h2 {
+    text-align: center;
+}
+
+.add-stylist-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+    font-size: 15px;
+    margin-left: 0;
+    border: 1px solid #ccc;
+}
+
+#text:focus {
+    border-color: purple;
+    box-shadow: 0 0 5px rgb(238, 154, 238);
+    outline: none;
+}
+
+#role {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+    font-size: 15px;
+    margin-left: 0;
+    border: 1px solid #ccc;
+
+}
+
+#role:focus {
+    border-color: purple;
+    box-shadow: 0 0 5px rgb(238, 154, 238);
+    outline: none;
+}
+
+#file {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 4%;
+    font-size: 15px;
+    margin-left: 0;
+    border: 1px solid #ccc;
+
+
+}
+
+
+
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

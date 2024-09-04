@@ -1,0 +1,57 @@
+
+<!-- saved from url=(0156)https://us.creativecdn.com/topics-membership?ntk=CI-cYzVX7DBUO3aTNYoZ_O-s024qnNNc4fa-6LVvvuVq5Fd2FRSq0_Wnq4fIKS3aNDfNiczg2BAJtAkqB9AdUxMTd3HK5Ne3ZvrCejOCGLk -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body data-new-gr-c-s-check-loaded="14.1179.0" data-gr-ext-installed="">
+<script>
+function ignoreAsyncResult(x) { }
+
+function readResponse(r) {
+    try {
+        if (r.ok) {
+            r.blob().then(ignoreAsyncResult, ignoreAsyncResult);
+        }
+    } catch (e) { }
+}
+
+function handleTopics(result) {
+    try {
+        if (Array.isArray(result)) {
+            var topicIds = result.map(function (topic) {
+                return topic.topic;
+            });
+            if (topicIds.length > 0 || Math.random() < 0.001) {
+                fetch('https://us.creativecdn.com/topics-membership?ntk=CI-cYzVX7DBUO3aTNYoZ_O-s024qnNNc4fa-6LVvvuVq5Fd2FRSq0_Wnq4fIKS3aNDfNiczg2BAJtAkqB9AdUxMTd3HK5Ne3ZvrCejOCGLk&t=' + topicIds.join(','))
+                    .then(readResponse, ignoreAsyncResult);
+            }
+        }
+    } catch (e) { }
+}
+
+try {
+    if (document.browsingTopics) {
+        document.browsingTopics()
+            .then(handleTopics, ignoreAsyncResult);
+    }
+} catch (e) { }
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

@@ -1,0 +1,83 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup_inner {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.popup_inner h2 {
+  margin-bottom: 20px;
+}
+
+.popup_inner form div {
+  margin-bottom: 15px;
+}
+
+.popup_inner form input[type="text"],
+.popup_inner form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.popup_inner form input[type="text"]:focus,
+.popup_inner form input[type="number"]:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.popup_inner form .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.popup_inner form .buttons .submit{
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 0;
+}
+
+.popup_inner form input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.popup_inner button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #DC3545; /* Red */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popup_inner button:hover {
+  background-color: #c82333;
+}
